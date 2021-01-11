@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     	int a=2,b=4,i=8,a3,b3,c3;
 	int a1='m8',b1='103',c1,c2; //赋值为多个字符时,只认最后一个,指的是a1
         //printf("AAAAA=%-d FFFF=%-d" , a,b);
