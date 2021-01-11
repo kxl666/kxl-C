@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	    //01 int a=2;
+	    	//01 int a=2;
 		//01 float b=3.1233445f;
 		//01 char c; //若不赋值给c,则输出为任意值
 
