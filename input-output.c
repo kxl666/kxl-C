@@ -2,13 +2,13 @@
 int main()
 {
     	int a=2,b=4,i=8,a3,b3,c3;
-	int a1='m8',b1='103',c1,c2; //赋值为多个字符时,只认最后一个,指的是a1
+	int a1='m8',b1='103',c1,c2; //赋值为多个字符时,只认最后一个。当b1=103 才会输出 字母 g
         //printf("AAAAA=%-d FFFF=%-d" , a,b);
 	printf("\n");
 
 	//一种键盘输出char类型 只输出一个字符
 	putchar(a1);putchar('\t'); //只输出 8
-	putchar(b1); //输出 g
+	putchar(b1); //输出 3
 	//putchar(a1);putchar(b1);
 	putchar('\n');
 
