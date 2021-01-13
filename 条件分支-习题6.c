@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 	int x,y;
-	printf("please input x-");
+	printf("please input x:");
 	scanf("%d",&x);
 	if ( x < 10 )
 	{
