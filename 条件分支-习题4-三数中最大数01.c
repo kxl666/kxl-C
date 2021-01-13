@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+//else if 若前一个判断成功,则不会再执行下去
+
 int main()
 {
 
