@@ -14,7 +14,7 @@ int main(){
            else
             d = 10;
           else
-            d = 8;
+           d = 8;
          else
           d = 5;
         else
@@ -22,8 +22,8 @@ int main(){
         }
        else
         d = 0;
- f=p*w*s*(1-d/100);
- printf("end=%10.2f\n",f);
+	f=p*w*s*(1-d/100);
+ 	printf("end=%10.2f\n",f);
 	printf("\n");
 }
 
