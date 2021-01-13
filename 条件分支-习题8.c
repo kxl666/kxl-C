@@ -9,7 +9,7 @@ int main()
   char grade;
   printf("请输入学生成绩:");
   scanf("%f",&score);
-  while ( score > 1000 || score < 0 )
+  while ( score > 100 || score < 0 )
   {
 	  printf("\n输入有误,请重输:");
 	  scanf("%f",&score);
