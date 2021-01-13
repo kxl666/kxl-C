@@ -1,4 +1,10 @@
 #include <stdio.h>
+
+/*有一个函数:
+y = x (x < 1)
+y = 2x - 1 (1 << x < 10)
+y = 3x -1 (x >= 10)
+*/
 int main(){
 	int x,y;
 	printf("please input x:");
