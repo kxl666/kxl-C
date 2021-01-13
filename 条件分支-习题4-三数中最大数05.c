@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+//返璞归真,别老使用嵌套,顺序执行有时反而会更简单
+
 int main()
 {
   int a,b,c,max;
