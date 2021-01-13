@@ -1,12 +1,12 @@
 int a; 				int a;                   
 scanf("%d",&a); 103	 g	scanf("%d",&a); g	103
-printf("%c",a); g	ø’÷µ	printf("%d",a); 103	103
+printf("%c",a); g	 Á©∫	printf("%d",a); 103	103
 
 
 int a; 				int a;		                   
 scanf("%c",&a); 103	g	scanf("%c",&a); 103		g	
-printf("%c",a); 1	g	printf("%d",a); -858993615
-	-858993561
+printf("%c",a); 1	g	printf("%d",a); -858993615	-858993561
+	
 
 
 
@@ -18,4 +18,4 @@ printf("%d",a);	49	103	printf("%c",a); 1	g
 
 char a;				char a;
 scanf("%d",&a);	103	g	scanf("%d",&a);	103	g
-printf("%d",a);	103	-52	printf("%c",a);	g	ø’÷µ
+printf("%d",a);	103	-52	printf("%c",a);	g	Á©∫
