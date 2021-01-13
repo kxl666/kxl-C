@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+//这是一种最弱智繁琐的写法,走一步想一步
+
 int main()
 {
 
