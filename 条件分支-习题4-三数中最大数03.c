@@ -1,4 +1,8 @@
 #include <stdio.h>
+
+//用到偷懒语法 ( a > b ) ? a:b;
+//要想到使用多个中间变量解决问题。类似打比赛,多个小组之间 "两两对决"
+
 int main()
 {
   int a,b,c,temp,max;
