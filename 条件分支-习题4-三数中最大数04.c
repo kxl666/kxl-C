@@ -1,4 +1,8 @@
 #include <stdio.h>
+
+//03的展开形式
+//要想到使用多个中间变量解决问题。类似打比赛,多个小组之间 "两两对决"
+
 int main()
 {
   int a,b,c,temp,max;
