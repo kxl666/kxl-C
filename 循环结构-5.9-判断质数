@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <math.h>
+//第一种
+/*int main()
+{
+	int n,i;
+	printf("please enter a integer number:");
+	scanf("%d",&n);
+	for (i=2;i<=n-1;i++)
+		if ( n%i == 0 ) 
+			break;
+		if ( i < n )	
+			printf("%d is not a prime number\n",n);
+		else	
+			printf("%d is a prime number\n",n);
+		return 0;
+}
+*/
+
+//第二种
+//其实n不必被2~(n- 1)范围内的各整数去除,只须将n被2~n/2间的整数除即可,甚至只须被2~根号2之间的整数除即可。
+/*int main()
+{
+	int n,i,k;
+	printf("please enter a integer number:");
+	scanf("%d",&n);
+	k=sqrt(n);
+	for (i=2;i<=k;i++)
+		if (n%i==0)
+			break;
+		if (i<k)
+			printf("%d is not a prime number\n",n);
+		else	
+			printf("%d is a prime number\n",n);
+}
+*/
+
+
+//求100~200间的全部素数。
+//在前者基础之上
+
+int main()
+{
+	int n,k,i,m=0;
+	for (n=101;n<=200;n=n+2) //n=n+2,在奇数中再进行判断
+	{
+		k=sqrt(n);
+		for (i=2;i<=k;i++)
+			if (n%i==0)
+				break;
+			if (i>=k)
+			{
+				printf("%d\t",n);
+				m=m+1; //只是换行作用
+			}
+			if (m%10==0) //每十个一换行
+				printf("\n");
+	}
+	printf("\n");
+}
+
