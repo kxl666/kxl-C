@@ -1,0 +1,19 @@
+#include <stdio.h>
+//输人一行字符,分别统计出其中英文字母、空格、数字和其他字符的个数。
+int main()
+{
+	
+	char c,i=0,j=0,k=0,h=0;
+	while ((c=getchar()) != '\n')
+	{
+		if ( c >='A' && c <='z' )
+			i++;
+		else if ( c >='0' && c <='9' )
+			j++;
+		else if ( c ==' ')
+			k++;
+		else
+			h++;
+	}
+	printf("字母数%d\n数字数%d\n空格数%d\n其他字符%d\n",i,j,k,h);
+}
