@@ -26,7 +26,7 @@ int main()
 	//所以 结果是 9 9 9 9 8
 	//printf("%d\n%d\n%d\n%d\n%d\n",i,i,i,++i,i);
 
-	//一种键盘输入char类型 只接收一个字符
+	//一种键盘输入char类型 只接收一个字符,只接收第一个,例如: 输入89 只会输出8 .与第五行现象相反
 	printf("PLEASE IPUUT:");
 	c2 = getchar();
 	c1 = getchar();
