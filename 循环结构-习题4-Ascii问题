@@ -6,7 +6,7 @@ int main()
 	char c,i=0,j=0,k=0,h=0;
 	while ((c=getchar()) != '\n')
 	{
-		if ( c >='A' && c <='z' )
+		if ( c >='A' && c <='Z' || c >='a && c <='z' )
 			i++;
 		else if ( c >='0' && c <='9' )
 			j++;
