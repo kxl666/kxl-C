@@ -32,6 +32,8 @@
 		if (n%i==0)
 			break;
 	}
+//注意当满足if时,会跳出,则不再i++,所以i会<k.
+//当不满足if时，还会i++，所以i会>k	总结: 在for (i=2;i<=k;i++)中,先i=2,再判断条件i<=k,然后i++
 		if (i<k)
 			printf("%d is not a prime number\n",n);
 		else	
