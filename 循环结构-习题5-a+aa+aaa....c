@@ -7,7 +7,8 @@ int main()
 	int a,n,i=1,sn=0,tn=0;
 	printf("a,n:");
 	scanf("%d,%d",&a,&n);
-	
+//此题类似循环结构-习题10-计算分数序列.c
+//[找规律] 以及 [循环赋值概念]
 	while(i<=n)
 	{
 		tn=tn+a;
