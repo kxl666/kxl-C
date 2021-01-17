@@ -4,7 +4,7 @@ int main()
 	int a,b;
 	float x,y;
 	char c1,c2;
-	char url[30];
+	char url[30]; //此时没有立即给字符串url赋值,所以它不能自动计算长度,所以不能url[]
 	scanf("%s", url); //可以加&也可以不加&
 	scanf("a=%d b=%d",&a,&b);
 	//其中scanf中输入的数据类型 需 与输出的数据类型一致
