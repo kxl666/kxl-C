@@ -36,7 +36,9 @@ int main()
 	c1 = getchar();
 	putchar(c1);
 	putchar(c2);
-	//printf("ggg:%c",getchar());
+	
+	printf("ggg:%d",getchar()); //此时输入1,getchar会 把1当做字符处理,所以输出 49. 而且输入102或12345565等等 结果都是49
+			     	    //此时输入g,输出103 理所当然。而且输入gh或gj等等 结果都是103
 	//putchar(c1);
 	printf("\n");
 
