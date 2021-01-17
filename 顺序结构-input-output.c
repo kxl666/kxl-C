@@ -10,7 +10,7 @@ int main()
         //printf("AAAAA=%-d FFFF=%-d" , a,b);
 	printf("\n");
 
-	//一种键盘输出char类型 只输出一个字符
+	//一种键盘输出char类型 只输出一个【字符】
 	putchar(a1);putchar('\t'); //只输出 8
 	putchar(b1); //输出 3
 	//putchar(a1);putchar(b1);
@@ -30,7 +30,7 @@ int main()
 	//所以 结果是 9 9 9 9 8
 	//printf("%d\n%d\n%d\n%d\n%d\n",i,i,i,++i,i);
 
-	//一种键盘输入char类型 只接收一个字符,只接收第一个,例如: 输入89 只会输出8 .与第五行现象相反
+	//一种键盘输入char类型 只接收一个字符,只接收第一个,例如: 输入89 只会接收8 .与第五行现象相反
 	printf("PLEASE IPUUT:");
 	c2 = getchar();
 	c1 = getchar();
