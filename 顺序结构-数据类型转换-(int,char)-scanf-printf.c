@@ -11,7 +11,9 @@ int main()
 		//double c;
 		
 		//char c='\0'; //输出%d还是0,而不是对应ASCII码值,而%c 是空值
-
+		//char c='\141'; 表示八进制数141 转换为十进制数(ASCII码) 结果%c 等于a
+		//char c='\x61'; 表示十六进制61 转换为十进制数(ASCII码) 结果%c 等于a
+	
         	scanf("%d",&a); //输入的数据类型 得与scanf定义的数据类型一致...
 		//printf("a=%c,b=%c",a,b);
 
