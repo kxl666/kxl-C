@@ -10,7 +10,8 @@ int main()
 	//int num=num1*num2; // int也可以直接计算!
         //printf("AAAAA=%-d FFFF=%-d" , a,b);
 	printf("\n");
-
+	printf("\n%d\n", printf("Hello world!")); //printf(“Hello world!”)调用后的返回值。
+	
 	//01一种键盘输出char类型 只输出一个【字符】 等于 putch ?
 	putchar(a1);putchar('\t'); //只输出 8
 	putchar(b1); //输出 3
