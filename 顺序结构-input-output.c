@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 int main()
 {
     	int a=2,b=4,i=8,a3,b3,c3;
@@ -49,12 +50,28 @@ int main()
 	//04一种键盘输入,只接收一个字符，没有缓冲区，输入一个字符后会立即读取，不用等待用户按下回车键,没有回显，看不到输入的字符 头文件conio.h
 	// getch()
 	
-	//05更优的键盘输入
+	//05一种字符串输入函数，gets()认为 空格 也是字符串的一部分,只有遇到回车键时才认为字符串输入结束,所以,
+	//不管输入了多少个空格,只要不按下回车键,对gets()来说就是一个完整的字符串. 也就是说，gets() 能读取含有空格的字符串，而 scanf() 不能。 二者主要区别
+	// gets()
+	//char author[30];
+	//gets(author);
+	//printf("author: %s\n", author);
+	
+	//06更优的键盘输入
 	//sizeof: 显示字节长度
 	//printf("input a3 b3 c3:");
 	//scanf("%d,%d,%d",&a3, &b3, &c3);
 	//printf("%d %% - %d - %d",sizeof(a3),b3,c3);
 	printf("\n");
+	
+	/*总结
+	C语言中常用的从控制台读取数据的函数有五个，它们分别是 scanf()、getchar()、getche()、getch() 和 gets()。
+	其中 scanf()、getchar()、gets() 是标准函数，适用于所有平台；getche() 和 getch() 不是标准函数，只能用于 Windows。
+	scanf() 是通用的输入函数，它可以读取多种类型的数据。
+	getchar()、getche() 和 getch() 是专用的字符输入函数，它们在缓冲区和回显方面与 scanf() 有着不同的特性，是 scanf() 不能替代的。
+	gets() 是专用的字符串输入函数，与 scanf() 相比，gets() 的主要优势是可以读取含有空格的字符串。
+	scanf() 可以一次性读取多份类型相同或者不同的数据，getchar()、getche()、getch() 和 gets() 每次只能读取一份特定类型的数据，不能一次性读取多份数据。
+	*/
 }
 
 
