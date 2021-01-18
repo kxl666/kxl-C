@@ -68,6 +68,7 @@ int main()
 	//scanf("%d,%d,%d",&a3, &b3, &c3);
 	//printf("%d %% - %d - %d",sizeof(a3),b3,c3);
 	printf("\n");
+	getch(); //可以让程序暂停一下
 	
 	/*总结
 	C语言中常用的从控制台读取数据的函数有五个，它们分别是 scanf()、getchar()、getche()、getch() 和 gets()。
