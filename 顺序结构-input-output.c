@@ -11,7 +11,7 @@ int main()
         //printf("AAAAA=%-d FFFF=%-d" , a,b);
 	printf("\n");
 
-	//01一种键盘输出char类型 只输出一个【字符】
+	//01一种键盘输出char类型 只输出一个【字符】 等于 putch ?
 	putchar(a1);putchar('\t'); //只输出 8
 	putchar(b1); //输出 3
 	//putchar(a1);putchar(b1);
