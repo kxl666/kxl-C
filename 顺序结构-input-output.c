@@ -3,6 +3,8 @@
 int main()
 {
     	int a=2,b=4,i=8,a3,b3,c3;
+	//int x,y,z;
+	//x=y=z=3; 即便不能int x=y=z=3;这样是可以的
 	int a1='m8',b1='103',c1,c2; //赋值为多个字符时,在putchar 和 printf("%c\n",b1); 中 都只认最后一个。当b1=103 才会输出 字母 g
 				    //在printf("%d\n",b1); 中 b1='103' 或 a1='m8' 会输出莫名长串数值
 	//int num1=3;
