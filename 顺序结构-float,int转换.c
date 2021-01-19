@@ -1,4 +1,5 @@
 #include <stdio.h>
+//只要是float型 无论是在赋值时 float a=12.09 还是printf("%.1f",a/3.0) 注意除以3 也要写成3.0为好
 int main()
 
 {
