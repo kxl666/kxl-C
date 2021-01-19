@@ -3,9 +3,9 @@
 int main()
 {
 	char arr[100] = {0};
-	gets(arr);
 	int i = 0;
 	int flag = 0; //一开始赋值为0 要注意！
+	gets(arr);
 	while(arr[i] != '0')
 	{
 		if(arr[i] == 'A')
