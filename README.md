@@ -1,3 +1,3 @@
 # C语言代码库
 
-![优先级](优先级.png)
+<body style="background-image:url(优先级.png);background-size: cover">
