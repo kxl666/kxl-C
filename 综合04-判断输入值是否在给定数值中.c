@@ -3,7 +3,7 @@ int main()
 {
 	char ch = 0;
 	char arr[] = "AEIOUaeiou"; //01数组思想
-	while((ch=getchar()) != EOF)
+	while((ch=getchar()) != 10)
 	{
 		int i = 0;
 		for(i=0; i<10; i++)
