@@ -73,6 +73,11 @@ int main()
 	//printf("input a3 b3 c3:");
 	//scanf("%d,%d,%d",&a3, &b3, &c3);
 	//printf("%d %% - %d - %d",sizeof(a3),b3,c3);
+	
+	//scanf("%2d%*2d%1d",&x,&y);
+	//printf("%d\n",x+y); //输入1234567    579//输出17
+	//因为%2d所以x=12,因为%*2d所以34被吸收,因为%1d所以y=5
+	
 	printf("\n");
 	getch(); // 或 getchar();//可以让程序暂停一下 也就是为什么文件夹下面.exe结尾的文件执行一闪而过,有这行程序会停住等待输入
 	
