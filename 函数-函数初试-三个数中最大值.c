@@ -42,7 +42,6 @@ int max02(int x,int y)
 {
 	int ma;
 	ma=(x>y)?x:y;
-	//mb=(max>z)?max:z;
 	return(ma);
 }
 
