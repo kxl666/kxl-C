@@ -12,6 +12,7 @@ int main()
 	}
 }*/
 
+//02只用两个变量
 #include <stdio.h>
 int main()
 { 
@@ -24,3 +25,17 @@ int main()
 	f2=f2+f1;
 	}
 }
+
+//03数组法
+/*
+int main()
+{
+	int f[40]={1,1},i;
+	printf("%12d\n%12d\n",f[0],f[1]);
+	for(i=0;i<=37;i++)
+	{
+		f[i+2]=f[i]+f[i+1];
+		printf("%12d\n",f[i+2]);
+	}
+}
+*/
