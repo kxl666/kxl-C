@@ -17,7 +17,7 @@ int main()
 			{
 				x1=(-b+sqrt(disc))/(2*a);
 				x2=(-b-sqrt(disc))/(2*a);
-				printf("has distinct real roots %8.4f and &8.4f",x1,x2); //有两个不等实根
+				printf("has distinct real roots \n%8.4f and %8.4f\n",x1,x2); //有两个不等实根
 			}
 			else //b*b-4*a*c<0
 			{
