@@ -10,16 +10,16 @@ int main()
 	else
 	{
 		disc=b*b-4*a*c;
-		if (fabs(disc)<=1e-6)
+		if (fabs(disc)<=1e-6) //b*b-4*a*c=0
 			printf("has two equal roots %8.4f\n",-b/(2*a)); //有两个相等实根
 		else
-			if (disc>1e-6)
+			if (disc>1e-6) //b*b-4*a*c>0
 			{
 				x1=(-b+sqrt(disc))/(2*a);
 				x2=(-b-sqrt(disc))/(2*a);
 				printf("has distinct real roots %8.4f and &8.4f",x1,x2); //有两个不等实根
 			}
-			else
+			else //b*b-4*a*c<0
 			{
 				realpart=-b/(2*a);
 				imagpart=sqrt(-disc)/(2*a);
