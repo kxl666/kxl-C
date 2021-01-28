@@ -28,11 +28,4 @@ int main()
 				printf("%8.4f-%8.4f\n",realpart,imagpart);
 			}
 	}
-
-
-
-
-
-
-
 }
