@@ -9,14 +9,10 @@ int main()
 	scanf("%d,%d,%d",&a,&b,&c);
 	if ( a > b && a > c )
 		max = a;
-	else if ( a < c )
-		max = c;
-	else if ( a < b )
+	else if ( b > a && b > c )
 		max = b;
-	else if ( b < c )
+	else if ( c > a  && c > b )
 		max = c;
-	else
-		max = b;	
 	printf("max=%d",max);
 	putchar('\n');
 }
