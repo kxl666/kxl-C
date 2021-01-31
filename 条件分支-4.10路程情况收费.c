@@ -1,5 +1,5 @@
 #include <stdio.h>
-//if嵌套 与if else 范围写法不会相同 
+//if嵌套 与if else 范围写法不会相同 ，else if 是左开右闭 
 int main(){
 	int c,s;
 	float p,w,d,f;
