@@ -29,6 +29,11 @@ int main()
 	  max = b;
 	  min = c;
 	  }
+	  else
+	  {
+	  max=b;
+          min=a;
+	  }
 	 }
 	}
 	
