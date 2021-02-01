@@ -22,10 +22,10 @@ int main()
 		}
 	}
 	
-	for(i=0; i<5; i++) //最后一个一个输出数组值
+	for(i=0; i<n; i++) //最后一个一个输出数组值
 	{
 		printf("%d ", score[i]);
 	}
-	
+	printf("\n");
 	return 0; 
 }
