@@ -11,7 +11,7 @@ int main()
 	//对所有数字排序-冒泡排序！！！来回比较，是 条件分支-三个数的大小顺序 的升级版
 	for(i=0; i<n; i++)
 	{
-		for(j=0; j<n-i-1; j++)
+		for(j=0; j<n-i; j++)
 		{
 			if(score[j] < score[j+1])
 			{
