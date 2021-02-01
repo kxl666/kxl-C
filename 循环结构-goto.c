@@ -12,4 +12,8 @@ loop:	if(i<=100)
 		goto loop;
 	  }
 	printf("%d\n",sum);
-}    
+}  
+
+#if( 0 )
+这是注释信息
+#endif
