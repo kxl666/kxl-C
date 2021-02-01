@@ -64,6 +64,11 @@ int main()
 	
 	//06一种字符串输入函数，输入一个字符串 ，gets()认为 空格 也是字符串的一部分,只有遇到回车键时才认为字符串输入结束,所以,
 	//不管输入了多少个空格,只要不按下回车键,对gets()来说就是一个完整的字符串. 也就是说，gets() 能读取含有空格的字符串，而 scanf() 不能。 二者主要区别
+	//如果是char str1[5],str2[5],str3[5] 
+        //     scanf(" %s%s%s" ,strl,str2,str3); 输入 How are you? 会对应str1="How" str2="are" str3="you?"
+	//如果是char str[13]
+	//     scanf(" %s",str); 输入How are you? str="How" //结合scanf %s遇到空格就结束 
+	
 	// gets()
 	//char author[30];
 	//gets(author);
