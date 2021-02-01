@@ -1,4 +1,5 @@
 #include <stdio.h>
+//输入 you are a boy，gets 能够识别空格 如果是scanf 那么就只会识别you后面都是'\0'
 int main()
 {
 	char string[81];
