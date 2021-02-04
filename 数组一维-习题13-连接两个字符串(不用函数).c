@@ -10,9 +10,9 @@ int main()
 	scanf("%s",s2);
 	
 	while(s1[i]!='\0')
-		i++;
+		i++; //记录s1元素个数
 	while(s2[j]!='\0')
-		s1[i++]=s2[j++];
-	s1[i]='\0';
+		s1[i++]=s2[j++]; //从s1最后一个元素开始赋值
+	s1[i]='\0'; //s1最后一个元素为'\0'
 	printf("\nThe new string is-%s\n",s1);	
 }
