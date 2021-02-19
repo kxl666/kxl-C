@@ -34,7 +34,7 @@ int main()
 	int max02(int x,int y);
 	int x,y,z;
 	scanf("%d %d %d",&x,&y,&z);
-	printf("max=%d\n",(max02(x,y)>z)?max02(x,y):z);
+	printf("max=%d\n",(max02(x,y)>z)?max02(x,y):z); //printf("max=%d\n",max(z,max02(x,y)));
 	return 0;
 }
 
