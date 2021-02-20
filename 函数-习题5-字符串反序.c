@@ -4,15 +4,12 @@ int main()
 {
 	void f1(char b[],char n);
 	char i,a[80],n=0;
-	printf("请输入数组值-");
+	printf("请输入字符串-");
 	gets(a);
 	while(a[n]!='\0')
 		n++;
 	f1(a,n);
-	printf("\n调整后的数组值-\n");
-	for(i=0;i<n;i++)
-		printf("%2c",a[i]);
-	printf("\n");
+	printf("\n调整后的字符串-%s\n",a);
 }
 
 void f1(char a[],char n)
