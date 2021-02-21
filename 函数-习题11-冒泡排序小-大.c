@@ -4,9 +4,10 @@
 int main()
 {
 	void f1(int score[],int n);
-	int score[80]={0},i,n=0;
+	int score[80],i,n;
 	printf("how many number exit-");
 	scanf("%d",&n);
+	printf("\nInput nunbers-");
 	for(i=0; i<n; i++)
 	{
 		scanf("%d", &score[i]);
@@ -24,13 +25,13 @@ void f1(int score[],int n)
 	int i,j;
 	for(i=0;i<n;i++)
 	{
-		for(j=0;j<n-i-1;j++)
+		for(j=0;j<n-1-i;j++)
 		{
-			if (score[j]<score[j+1])
+			if (score[j]>score[j+1])
 			{
-				int temp=score[j];
-				score[j]=score[j+1];
-				score[j+1]=temp;
+				int temp=score[j+1];
+				score[j+1]=score[j];
+				score[j]=temp;
 			}
 		}
 	}
