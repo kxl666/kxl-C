@@ -23,6 +23,8 @@ int main()
 	putchar(a1);putchar('\t'); //只输出 8
 	putchar(b1); //输出 3
 	//putchar(a1);putchar(b1);
+	putchar(n%10+'0');
+	putchar(32);
 	putchar('\n');
 	
 	//02一种键盘输出 一个字符串
