@@ -11,7 +11,7 @@ int main()
 	f1(num);
 }
 
-int f1(char num[])	
+void f1(char num[])	
 {  
 	char num2[7]={0};
 	int i,n;
