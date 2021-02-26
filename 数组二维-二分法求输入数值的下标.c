@@ -20,6 +20,7 @@ int main()
 #endif
 	
 	while(scanf("%d",&n) !=1) //EOF:非法输入 0:没有输入
+		//数值数组默认初始化为0,字符数组默认初始化为\0
 	{
 		printf("illegal input:");
 		getchar();
