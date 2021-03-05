@@ -11,7 +11,7 @@ int main()
 		printf("%d",*p);
 	/*以下与上面一样
 	for(i=0;i<10;i++)
-	printf("%d",*p++);
+	printf("%d",*p++); //(*p)++先求值再++
 	*/
 	printf("\n");
 }
