@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//改变的是主函数中指针变量的址
 int main()
 {
 	int *p1,*p2,*p,a,b;
