@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//数组值逆序
 int main()
 {
 	void inv(int *x,int n);
