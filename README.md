@@ -1,3 +1,3 @@
 # C语言代码库
 
-<body style="background-image:url(优先级.png);background-size: cover">
+ <table><tr><td bgcolor=yellow>背景色yellow</td></tr></table>
