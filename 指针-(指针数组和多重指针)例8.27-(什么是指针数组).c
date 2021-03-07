@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 //选择排序将若干字符串按字母顺序(由小到大)输出。
+//-一个数组,若其元素均为指针类型数据,称为指针数组
 
 int main()
 {	
