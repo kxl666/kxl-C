@@ -34,7 +34,16 @@ void sort(char *name[],int n)
 
 void print(char *name[],int n)
 {
-	int i;
-	for(i=0;i<n;i++)
-		printf("%s\n",name[i]);
+	//int i;
+	//for(i=0;i<n;i++)
+	//	printf("%s\n",name[i]);
+	int i=0;
+	char *p;
+	p=name[0];
+	while(i<n)
+	{
+	p=*(name+i++);
+	printf("%s\n",p);
+	}
 }
+
