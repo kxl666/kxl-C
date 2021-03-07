@@ -5,9 +5,9 @@ int main()
 	void average(float *p,int n);
 	void search(float (*p)[4],int n);
 	float score[3][4]={{65,67,70,60},{80,87,90,81},{90,99,100,98}};
-	average(*score,12);
+	average(*score,12); //用*score(即score[0][0])的地址作为实参
 	search(score,2); //不能写成search(*score,2) 因为此时实参与形参类型不匹配
-}
+}			 //用score(即score[0]的起始地址)作为实参
 
 void average(float *p,int n)
 {
