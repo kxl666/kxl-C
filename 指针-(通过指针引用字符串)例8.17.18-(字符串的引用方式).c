@@ -11,15 +11,22 @@ int main()
 /*
 int main()
 {	
-	char a[]="i am a student",b[20];
+	char a[]="i am a student",b[20],*p1,*p2;
 	int i;
-	for(i=0;*(a+i)!='\0';i++)
-		*(b+i)=*(a+i);
-	*(b+i)='\0';
+	p1=a;
+	p2=b;
+	//for(i=0;*(a+i)!='\0';i++)
+	//	*(b+i)=*(a+i);
+	//*(b+i)='\0';
+	for(;*p1!='\0';p1++,p2++)
+		*p2=*p1;
+	*p2='\0';
 	printf("string a is-%s\n",a);
-	printf("string b is-");
-	for(i=0;b[i]!='\0';i++)
-		printf("%c",b[i]);
+	printf("string b is-%s\n",b);
+	//printf("string b is-");
+	//for(i=0;b[i]!='\0';i++)
+	//	printf("%c",b[i]);
 	printf("\n");
 }
+
 */
