@@ -17,7 +17,7 @@ int main()
 int main()
 {
 	int a[10];
-	int i;
+	int *p,i;
 	printf("please enter 10 integer number-");
 	for(i=0;i<10;i++)
 		scanf("%d,&a[i]");
