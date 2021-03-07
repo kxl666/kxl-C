@@ -21,7 +21,7 @@ int main()
 	printf("please enter 10 integer number-");
 	for(i=0;i<10;i++)
 		scanf("%d,&a[i]");
-	for(p=a;p<(a+10);p++) //for(p=a;a<(p+10); printf("%d",*a);是不行的,因为数组名a代表数组首元素的地址,它是一个指针型常量,它的值在程序运行期间是固定不变的。既然a是常量,所以a++是无法实现的。
+	for(p=a;p<(a+10);p++) //for(p=a;a<(p+10;a++); printf("%d",*a);是不行的,因为数组名a代表数组首元素的地址,它是一个指针型常量,它的值在程序运行期间是固定不变的。既然a是常量,所以a++是无法实现的。
 		printf("%d",*p); //用指针指向当前的数组元素
 	printf("\n");
 }
