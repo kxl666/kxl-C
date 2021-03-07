@@ -1,5 +1,6 @@
 #include <stdio.h>
 //数组值逆序
+//此时实参和形参任意数组名或指针变量名,所以有4中组合
 int main()
 {
 	void inv(int *x,int n);
