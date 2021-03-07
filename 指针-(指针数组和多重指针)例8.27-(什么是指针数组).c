@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+//选择排序将若干字符串按字母顺序(由小到大)输出。
 
 int main()
 {	
