@@ -1,6 +1,3 @@
 <div>
-<img src="1.png">
-<img src="2.png">
-<img src="3.png">
-<a href="https://static01.imgkr.com/temp/c6e10a16c4764dcdb32587760f6769ec.png" width="28%"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-Python%E5%B0%8F%E4%BE%8B%E5%AD%90-orange"></a>
+      <p><img src="1.png" width="400" height="300" /> </p>
 </div>
