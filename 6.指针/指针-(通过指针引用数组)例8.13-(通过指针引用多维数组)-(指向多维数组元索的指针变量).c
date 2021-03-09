@@ -10,6 +10,6 @@ int main()
 	q=&b; //表示q指向一维数组(行)
 	printf("please enter row and colum-");
 	scanf("%d,%d",&i,&j);
-	printf("a[%d,%d]=%d\t%d\n",i,j,*(*(p+i)+j),(*(p+i))[j]); 
-	printf("%d\n",(*q)[j]); //(*q)[j]是p所指向的行中序号为j的元素
+	printf("a[%d,%d]=%d\t%d\n",i,j,*(*(p+i)+j),(*(p+i))[j]); //(*(p+i))[j]=p[i][j]
+	printf("%d\n",(*q)[j]); //(*q)[j]是p所指向的行中序号为j的元素=q[0][j]
 }
