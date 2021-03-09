@@ -26,9 +26,10 @@ int main()
 	printf("%s",str); //ko 因为数组名虽然代表地址,但它是常量,它的值是不能改变的
 	
 	char a[]="home;
-		char *b="home";
+	char *b="home";
 	a[2]='r'; //ok
 	b[2]='r'; //ko 字符指针变量指向的字符串常量中的内容是不可以被取代的(不能对它们再赋值)
+		  //因为此时指针b在date静态存储区
 	
 	char *format;
 	format="a=%d,b=%f\n"; //format若是字符数组则不行
