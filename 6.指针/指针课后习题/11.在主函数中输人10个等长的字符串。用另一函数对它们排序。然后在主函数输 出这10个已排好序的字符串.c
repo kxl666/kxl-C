@@ -1,27 +1,30 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-	void move(int *pointer);
-	int a[3][3],*p,i;
-	printf("input matrix-\n");
-	for(i=0;i<3;i++)
-		scanf("%d %d %d",&a[i][0],&a[i][1],&a[i][2]);
-	p=&a[0][0];
-	move(p);
-	printf("Now,matrix-\n");
-	for(i=0;i<3;i++)
-		printf(" %d %d %d\n",a[i][0],a[i][1],a[i][2]);
+	void sort(char s[][6]);
+	int i;
+	char str[10][6];
+	printf("input 10 strings-\n");
+	for(i=0;i<10;i++)
+		scanf("%s",str[i]);
+	sort(str);
+	printf("Now,the sequence is-\n");
+	for(i=0;i<10;i++)
+		printf("%s\n",str[i]);
 }
 
-void move(int *pointer)
+void sort(char s[10][6])
 {
-	int i,j,t;
-	for(i=0;i<3;i++)
-		for(j=1;j<3;j++)
-		{
-			t=*(pointer+3*i+j); //这个方式注意!!!
-			*(pointer+3*i+j)=*(pointer+3*j+i);
-			*(pointer+3*j+i)=t;
-		}
+	int i,j;
+	char temp[10],*p=temp;
+	for(i=0;i<9;i++)
+		for(j=0;j<9-i;j++)
+			if (strcmp(s[j],s[j+1])>0)
+			{
+				strcpy(p,s[j]);
+				strcpy(s[j],s[j+1]);
+				strcpy(s[j+1],p);
+			}
 }
