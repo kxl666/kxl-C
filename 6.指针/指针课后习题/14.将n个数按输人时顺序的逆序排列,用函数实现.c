@@ -31,3 +31,17 @@ void sort(char *p,int m)
 		*p2=temp;
 	}
 }
+
+/*
+void sort(char *p,int m)
+{
+	int i;
+	char temp;
+	for(i=0;i<m/2;i++)
+	{
+		temp=*(p+i);
+		*(p+i)=*(p+(m-1-i));
+		*(p+(m-1-i))=temp;
+	}
+}
+*/
