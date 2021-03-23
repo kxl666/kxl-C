@@ -2,7 +2,7 @@
 #include <string.h>
 #define MAX(a,b) (a>b)?a:b
 #define SQ(y) (y)*(y) //括号不要去掉不然试试
-#define STR(s1,s2,s3,sum) strcat(strcat(strcat(sum,s1),s2),s3)
+#define STR(s1,s2,s3,sum) strcat(strcat(strcat(sum,s1),s2),s3)  //宏定义也可用来定义多个语句,在宏调用时,把这些语句又代换到源程序内
 
 int main()
 {
