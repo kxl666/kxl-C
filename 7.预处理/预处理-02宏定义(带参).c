@@ -21,6 +21,6 @@ int main()
 	STR(str2,str1,str3,str);
 	printf("\n\tstr1=%s\n\tstr2=%s\n\tstr3=%s\n\tstr=%s\n\n\n",str1,str2,str3,str);
 
-	str[0]=0; //清空字符串欺骗一下编译程序0就结束(就如硬盘中的数据并没有真正删除,只是删除索引之类的,有新数据酒会覆盖)
+	str[0]=0; //清空字符串欺骗一下编译程序0就结束(就如硬盘中的数据并没有真正删除,只是删除索引之类的,有新数据就会覆盖)
 	printf("\n\tNOW str is %s\n",str);
 }
