@@ -5,7 +5,7 @@ int main()
 	double a,b,c,disc,x1,x2,realpart,imagpart;
 	scanf("%lf,%lf,%lf",&a,&b,&c);
 	printf("The equation");
-	if (fabs(a)<=1e-6) //a=0 不是二元一次方程 fabs(a)是a 的绝对值
+	if (fabs(a)<=1e-6) //a=0 不是一元二次方程 fabs(a)是a 的绝对值
 		printf("is not a quadratic\n");
 	else
 	{
