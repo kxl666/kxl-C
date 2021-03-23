@@ -8,7 +8,7 @@ int main()
 {
 	int x=1,y=4,max,a=3,sq1,sq2;
 	char str1[]="I",str2[]="love",str3[]="Fishc.com",str[40]="";
-	max=MAX(x,y);
+	max=MAX(x,y); //只是进行符号代换,不存在值传递的问题 相当于 max=(x>y)?x:y
 	printf("The max id %d\n",max);
 
 	sq1=SQ(a+1);
