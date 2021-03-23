@@ -12,7 +12,7 @@ int main()
 	//int num=num1*num2; // int也可以直接计算!
         //printf("AAAAA=%-d FFFF=%-d" , a,b);
 	printf("\n");
-	printf("\n%d\n", printf("Hello world!")); //printf(“Hello world!”)调用后的返回值。
+	printf("\n%d\n", printf("Hello world!")); //输出Hello world! 和 printf(“Hello world!”)调用后的返回值。
 	
 	//printf("There is  %d\n",8&3); &中 前数大于后数结果是0 反之结果是前者
 	//printf("There is  %d\n",4<<2); <<表示4*2的平方 例4<<1表示4*2的一次方
