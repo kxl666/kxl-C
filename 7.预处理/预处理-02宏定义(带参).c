@@ -15,6 +15,7 @@ int main()
 	printf(" sq- %d\n",sq1);
     
 	sq2=160/SQ(a+1); //结果竟然还是160 ,因为是 160/(3+1)*(3+1). 宏定义应该改为#define SQ(y) ((y)*(y))
+	                 //在宏定义中的形参是标识符,而宏调用中的实参可以是表达式 a+1就是
 	printf(" sq- %d\n",sq2);
 	
 	STR(str2,str1,str3,str);
