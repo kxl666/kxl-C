@@ -15,8 +15,8 @@ int main()
 	printf("\n%d\n", printf("Hello world!")); //输出Hello world! 和 printf(“Hello world!”)调用后的返回值。
 	
 	//printf("There is  %d\n",8&3); &中 前数大于后数结果是0 反之结果是前者
-	//printf("There is  %d\n",4<<2); <<表示4*2的平方 例4<<1表示4*2的一次方
-	//printf("There is  %d\n",4>>2); >>表示4/2的平方
+	//printf("There is  %d\n",4<<2); <<表示4*(2的平方) 例4<<1表示4*2的一次方
+	//printf("There is  %d\n",4>>2); >>表示4/(2的平方) ,注意！ 4>>1 表示4/2 类推9>>1 = 4
 	//printf("There is  %d\n",9^5); 9^5=00001001^00000101=00001100.结果就是12。
 	
 	//01一种键盘输出char类型 只输出一个【字符】 等于 putch ?
