@@ -14,3 +14,18 @@ int main()
 	for(i=1;i<=5;i++)
 	printf("%d!=%d\n",i,fac(i));
 }
+
+//相当于以下
+#if(0)
+#include <stdio.h>
+
+int main()
+{
+	int s=1,i;
+	for(i=1;i<5;i++)
+	{
+		s*=i;
+		printf("%d\n",s);
+	}
+}
+#endif
