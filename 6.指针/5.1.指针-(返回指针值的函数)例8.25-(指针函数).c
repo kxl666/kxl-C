@@ -18,6 +18,6 @@ int main()
 float *search(float (*pointer)[4],int n)
 {
 	float *pt;
-	pt=*(pointer+(n-1));
+	pt=*(pointer+(n-1)); //这里是址,5.2是值
 	return(pt);
 }
