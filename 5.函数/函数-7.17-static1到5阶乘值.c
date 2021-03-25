@@ -15,7 +15,7 @@ int main()
 	printf("%d!=%d\n",i,fac(i));
 }
 
-//相当于以下
+//相当于以下01
 #if(0)
 #include <stdio.h>
 
@@ -27,5 +27,33 @@ int main()
 		s*=i;
 		printf("%d\n",s);
 	}
+}
+#endif
+
+//相当于以下02
+#if(0)
+int fac(int n)
+{
+	int f;
+	if (n<0)
+		printf("error !");
+	else if (n==0 || n==1)
+		f=1;
+	else
+	{		
+		f=fac(n-1)*n;
+		printf("%d\n",f);
+	}
+	return f;
+}
+
+int main()
+{
+	int fac(int n);
+	int n,y;
+	printf("please input an number-");
+	scanf("%d",&n);
+	y=fac(n);
+	printf("%d!=%d\n",n,y);
 }
 #endif
