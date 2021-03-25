@@ -26,7 +26,7 @@ float *search(float (*pointer)[4])
 	float *pt;
 	pt=NULL;
 	for(;i<4;i++)
-		if (*(*pointer+i)<60)
+		if (*(*pointer+i)<60) //=(pointer[0][i]<60) =((*pointer)[i]<60)
 			pt=*pointer;
 		return(pt);
 }
