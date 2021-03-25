@@ -5,7 +5,7 @@ int main()
 {
 	
 	char c,i=0,j=0,k=0,h=0;
-	while ((c=getchar()) != '\n') //有时候写文章需要使用回车,所以不能'\n'就退出.而使用 EOF,表示 ctrl + z 或F6退出. 
+	while ((c=getchar()) != '\n') //有时候写文章需要使用回车,所以不能'\n'就退出.而使用 EOF,表示 ctrl + z 或F6退出(Windows或vc6不支持). 
 	//while ((c=getchar()) != 10) 也可以直接ASCII码值
 	{
 		if ( c >='A' && c <='Z' || c >='a' && c <='z' ) //逻辑与高于逻辑或 换成数字不是完全不可以,有点小问题
