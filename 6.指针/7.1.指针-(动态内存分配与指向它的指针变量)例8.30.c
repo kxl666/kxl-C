@@ -17,8 +17,8 @@ void check(int *p)
 	int i;
 	printf("They are fail-");
 	for(i=0;i<5;i++)
-		if (p[i]<60)
-			printf("%d ",p[i]);
+		if (p[i]<60) //= (*(p+i)<60) 但是动态分配的指针p不能自增也就是 (*p++，60)
+ 			printf("%d ",p[i]);
 		printf("\n");
 }
 
