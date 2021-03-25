@@ -14,7 +14,7 @@ int main()
 		{
 			printf("No. %d score:",i);
 			for(j=0;j<4;j++)
-				printf("%5.2f ",*(p+j));
+				printf("%5.2f ",*(p+j)); //区分这里是一般指针变量
 			printf("\n");
 		}
 	}
@@ -26,7 +26,7 @@ float *search(float (*pointer)[4])
 	float *pt;
 	pt=NULL;
 	for(;i<4;i++)
-		if (*(*pointer+i)<60) //=(pointer[0][i]<60) =((*pointer)[i]<60)
-			pt=*pointer;
+		if (*(*pointer+i)<60) //=(pointer[0][i]<60) =((*pointer)[i]<60)  //这里是指向多维数组的指针
+			pt=*pointer; 
 		return(pt);
 }
