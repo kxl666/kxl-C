@@ -14,5 +14,5 @@ int main()
 
 void copy_string(char *from,char *to)
 {
-	while(*to++=*from++); //简化
+	while(*to++=*from++); //简化//如果b是指针字符串则不能进行逐个赋值
 }
