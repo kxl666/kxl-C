@@ -26,7 +26,7 @@ float *search(float (*pointer)[4])
 	float *pt;
 	pt=NULL;
 	for(;i<4;i++)
-		if (*(*pointer+i)<60) //=(pointer[0][i]<60) =((*pointer)[i]<60)  //这里是指向多维数组的指针 //这里是值5.1(8.26)是址
+		if (*(*pointer+i)<60) //=(pointer[0][i]<60) =((*pointer)[i]<60)  //这里是指向多维数组的指针 //这里是值5.1(8.25)是址
 			pt=*pointer; 
 		return(pt);
 }
