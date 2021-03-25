@@ -42,7 +42,7 @@ int fac(int n)
 	else
 	{		
 		f=fac(n-1)*n;
-		printf("%d\n",f);
+		printf("%d\n",f); //多了这行 对比函数-7.7-递归-计算 !n.c
 	}
 	return f;
 }
