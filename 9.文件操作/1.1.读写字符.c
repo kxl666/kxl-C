@@ -5,7 +5,7 @@
 int main()
 {	
 	FILE *fp;
-	char ch,filename;
+	char ch,filename[20];
 	//printf("please input filename:");
 	//scanf("%s",&filename);
 	if (fp=fopen("C:\\Users\\kxl\\Desktop\\kxl.txt","a+"))
