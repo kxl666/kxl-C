@@ -21,7 +21,7 @@ int main()
 void fun(int x,int y,int (*p)(int,int))
 {
 	int result;
-	result=(*p)(x,y);
+	result=(*p)(x,y); //= p(x,y)
 	printf("%d\n",result);
 }
 
