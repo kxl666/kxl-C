@@ -23,7 +23,7 @@ int main()
 	}
 	
 	ch=fgetc(in);
-	while(!feof(in))
+	while(!feof(in)) //=(ch!=EOF)
 	{
 		fputc(ch,out);
 		putchar(ch);
