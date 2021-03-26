@@ -15,6 +15,7 @@ int main()
 	else if (n==2)
 		p=min;
 	c=(*p)(a,b); //c=max(a,b) 或c=min(a,b)
+		     //= p(a,b)
 	printf("a=%d,b=%d\n",a,b);
 	if (n==1)
 		printf("max=%d\n",c);
