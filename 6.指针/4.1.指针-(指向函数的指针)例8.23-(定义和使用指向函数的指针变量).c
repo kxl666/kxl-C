@@ -11,7 +11,7 @@ int main()
 	printf("please choose 1 or 2:");
 	scanf("%d",&n);
 	if (n==1)
-		p=max;
+		p=max; //= p=&max
 	else if (n==2)
 		p=min;
 	c=(*p)(a,b); //c=max(a,b) 或c=min(a,b)
