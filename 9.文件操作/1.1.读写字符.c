@@ -16,7 +16,7 @@ int main()
 	else
 	{
 		printf("No wonderful!\n");
-		exit(0);
+		exit(EXIT_FAILURE); //=exit(0)
 	}
 	
 #if(Swith)
