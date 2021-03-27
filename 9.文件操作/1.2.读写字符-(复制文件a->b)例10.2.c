@@ -23,7 +23,7 @@ int main()
 	}
 	
 	ch=fgetc(in);
-	while(!feof(in)) //=(ch!=EOF)
+	while(!feof(in)) //=(ch!=EOF) fgetc读取失败的返回标准
 	{
 		fputc(ch,out);
 		putchar(ch);
