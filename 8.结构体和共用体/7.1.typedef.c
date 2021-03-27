@@ -105,3 +105,14 @@ void fun()
 {
 	printf("I Lve You!\n");
 }
+
+//06定义指向多维数组的指针
+int (*p)[3];
+typedef int (*P)[3];
+
+//07指针数组的指针函数
+int *(*array[3])(int);
+typedef int (*P)(int);
+调用: P array[3];
+
+//08
