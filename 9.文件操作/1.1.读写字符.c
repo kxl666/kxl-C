@@ -27,7 +27,7 @@ int main()
 		getchar(); //吸收一下回车
 		if (ch!=EOF) fputc(ch,fp);
 		printf("The word-%c is here which you put in:",ch);
-	}while(ch!=EOF);
+	}while(ch!=EOF); //此时EOF为 ctrl + Z
 	
 	fclose(fp);
 	putchar(10); //换行符
