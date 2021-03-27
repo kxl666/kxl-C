@@ -11,6 +11,7 @@ int main()
 	fputs("I\n",fp);
 	fputs("Love\n",fp);
 	fputs("You\n",fp); //待会儿输出到终端时,最后一行会输出两次
+			   //所以可以fputs("You",fp);然后 关闭之前 printf("\n");
 	
 	fclose(fp);
 	
