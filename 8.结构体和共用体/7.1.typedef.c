@@ -36,6 +36,32 @@ int main()
 	printf("%d-%d-%d\n",date.month,date.day,date.year);
 }
 
+//也可以既typedef 与 struct+结构体名 并存
+/*
+typedef struct date_01
+{
+	int month;
+	int day;
+	int year;
+}Date;
+
+int main()
+{	
+	struct date_01 date01;
+	date01.day=56;
+
+	Date date;
+	date.month=12;
+	date.day=23;
+	date.year=2021;
+	
+	printf("%d-%d-%d\n",date.month,date.day,date.year);
+
+	printf("%d\n",date01.day);
+}
+*/
+
+
 
 //03定义整型数组
 #include <stdio.h>
