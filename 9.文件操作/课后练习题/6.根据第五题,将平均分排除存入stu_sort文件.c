@@ -21,12 +21,12 @@ struct Student
 int main()
 {	
 	FILE *fp;
-	int i=0,j,k,min;
+	int i=0,j,min;
 	float sum=0.0;
 	struct Student stu[NUM],temp,stu2[NUM];
 	
 	fp=fopen("C:\\Users\\kxl\\Desktop\\kxl.txt","r");
-	printf("\n´ÓÎÄ¼şÖĞ¶ÁÈ¡ºóµÄÊı¾İ:");
+	printf("\nä»æ–‡ä»¶ä¸­è¯»å–åçš„æ•°æ®:");
 	for(i=0;i<NUM;i++)
 	{
 		fread(&stu[i],sizeof(struct Student),1,fp);
@@ -36,14 +36,17 @@ int main()
 	
 	for(i=0;i<NUM;i++)
 	{
-		k=i;
+		min=i;
 		for(j=i+1;j<NUM;j++)
 			if (stu[k].ave>stu[j].ave)
 				min=j;
 			
-			temp=stu[i];
-			stu[i]=stu[min];
-			stu[min]=temp;	
+			if(min!=i)
+			{
+				temp=stu[i];
+				stu[i]=stu[min];
+				stu[min]=temp;	
+			}
 	}
 	
 	
@@ -57,7 +60,7 @@ int main()
 	fclose(fp);
 	
 	fp=fopen("C:\\Users\\kxl\\Desktop\\stu_sort.txt","r");
-	printf("\nÅÅĞòºóÊäÈëµÄÎÄ¼şÊä³öµÄÊı¾İ:");
+	printf("\næ’åºåè¾“å…¥çš„æ–‡ä»¶è¾“å‡ºçš„æ•°æ®:");
 	i=0;
 	while(i<NUM)
 	{
