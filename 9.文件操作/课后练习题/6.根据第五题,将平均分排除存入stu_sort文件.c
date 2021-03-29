@@ -38,7 +38,7 @@ int main()
 	{
 		min=i;
 		for(j=i+1;j<NUM;j++)
-			if (stu[k].ave>stu[j].ave)
+			if (stu[min].ave>stu[j].ave)
 				min=j;
 			
 			if(min!=i)
@@ -47,6 +47,14 @@ int main()
 				stu[i]=stu[min];
 				stu[min]=temp;	
 			}
+		      /*if (stu[min].ave>stu[j].ave)
+			{
+				min=j;
+				temp=stu[i];
+				stu[i]=stu[min];
+				stu[min]=temp;	
+			}
+		     */
 	}
 	
 	
