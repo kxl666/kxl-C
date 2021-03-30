@@ -18,7 +18,7 @@ union Categ
 {
 int clas;
 char position[10];
-}
+};
 
   struct 
   {
