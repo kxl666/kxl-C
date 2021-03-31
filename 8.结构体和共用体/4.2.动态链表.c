@@ -122,6 +122,7 @@ struct Student *deleted(struct Student *p)
 	return p;
 }
 
+//主函数
 int main()
 {
 	struct Student *p;
