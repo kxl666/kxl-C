@@ -20,7 +20,7 @@ int main()
 	}
 	
 	printf("original data-\n");
-	for(i=0;fread(&emp[i],sizeof(struct employee),1,fp)==1;i++) //不知道多少行情况下
+	for(i=0;fread(&emp[i],sizeof(struct employee),1,fp)==1;i++) //虏禄脰陋碌脌露脿脡脵脨脨脟茅驴枚脧脗
 		printf("\n %8s %7d",emp[i].name,emp[i].salary);
 	printf("\n");
 	fclose(fp);
@@ -32,7 +32,7 @@ int main()
 	{
 		if (strcmp(name,emp[i].name)==0)
 		{
-			for(j=i;i<n-1;j++)
+			for(j=i;j<n-1;j++)
 			{
 				strcpy(emp[j].name,emp[j+1].name);
 				emp[j].salary=emp[j+1].salary;
