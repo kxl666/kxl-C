@@ -32,6 +32,7 @@ int main()
 	//02一种键盘输出 一个字符串
 	//char a[]="dddwd\nd"; //可以识别转义字符
 	//puts(a);
+	puts("hello word!");
 	Sleep(5000);  //程序暂停5秒钟！！！
 	
 
