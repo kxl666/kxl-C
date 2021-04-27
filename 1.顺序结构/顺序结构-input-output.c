@@ -27,6 +27,7 @@ int main()
 	//putchar(a1);putchar(b1);
 	putchar(n%10+'0');
 	putchar(32);
+	putchar('t');
 	putchar('\n');
 	
 	//02一种键盘输出 一个字符串
