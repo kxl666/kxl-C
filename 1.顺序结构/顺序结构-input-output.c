@@ -12,7 +12,7 @@ int main()
 	//int num=num1*num2; // int也可以直接计算!
         //printf("AAAAA=%-d FFFF=%-d" , a,b);
 	printf("\n");
-	printf("\n%d\n", printf("Hello world!")); //输出Hello world! 和 printf(“Hello world!”)调用后的返回值。
+	printf("\n%d\n", printf("Hello world!")); //输出Hello world! 和 printf(“Hello world!”)调用后的返回值(就是字符串长度,所占存储空间大小)。
 	
 	printf("%*d",4,i); //* 表示附加字符,4个宽度 结果输出:   8
 	
