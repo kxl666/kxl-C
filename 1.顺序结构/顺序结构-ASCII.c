@@ -9,6 +9,8 @@ int main()
 	//char *str = "C语言中文网"; 或 char str[] = "http://c.biancheng.net";
 	//printf("%s",str);此时%s 才能输出变量
 	a1=97; //现在赋值到字符比较与数值区别 发现:一般无区别
+	//a1=A; 这个不行会报错,注意字符得单引号
+	
 	//a1='Adf'; //注意字符得单引号,不能双引号,只认最后一个f
 		    //此时a1 在int,char %c 输出都是f. 
 		    //此时a1 在char %d 输出是102,在int %d输出 长串数字
