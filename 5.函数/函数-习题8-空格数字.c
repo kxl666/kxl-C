@@ -3,8 +3,8 @@
 int main()
 {
 	char num[7]={0};
-	int f1(char num[]);
-	int i,n;
+	void f1(char num[]);
+	int i;
 	printf("please input four numbers-");
 	for(i=0;i<=3;i++)
 		scanf("%c",&num[i]);
