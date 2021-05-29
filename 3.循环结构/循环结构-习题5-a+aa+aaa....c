@@ -7,14 +7,15 @@ int main()
 	int a,n,i=1,sn=0,tn=0;
 	printf("a,n:");
 	scanf("%d,%d",&a,&n);
+	tn=tn+a;
 //此题类似循环结构-习题10-计算分数序列.c
 //[找规律] 以及 [循环赋值概念]
 //这种a有初值的sn这种加会放在a循环赋值表达式的前面
 	while(i<=n)
-	{
-		tn=tn+a;
+	{	
 		sn=sn+tn;
 		a=a*10;
+		tn=tn+a;
 		i++;
 	}
 	printf("a+aa+aaa+...=%d\n",sn);
