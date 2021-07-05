@@ -32,5 +32,4 @@ float p(int n,int x)
 		y=(3*n-1)*x*p((n-1),x)-(n-1)*p((n-2),x)/n;
 	return y;
 }
-
 */
